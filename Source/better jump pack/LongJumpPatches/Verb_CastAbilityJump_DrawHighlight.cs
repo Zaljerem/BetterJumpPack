@@ -18,7 +18,6 @@ public static class Verb_CastAbilityJump_DrawHighlight
 
         var effectiveRange = __instance.Ability.VerbProperties.FirstOrFallback().range;
 
-
         var t = __instance.caster;
         var m = t.Map;
         var cell = t.Position;
@@ -29,8 +28,11 @@ public static class Verb_CastAbilityJump_DrawHighlight
             GenDraw.DrawTargetHighlightWithLayer(target.CenterVector3, AltitudeLayer.MetaOverlays);
         }
 
-        GenDraw.DrawRadiusRing(__instance.caster.Position, effectiveRange, Color.white
-            , c => canJump && JumpUtility.ValidJumpTarget(___caster, __instance.caster.Map, c));
+        GenDraw.DrawRadiusRing(
+            __instance.caster.Position,
+            effectiveRange,
+            Color.white,
+            c => canJump && JumpUtility.ValidJumpTarget(___caster, __instance.caster.Map, c));
 
         return false;
     }

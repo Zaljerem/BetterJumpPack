@@ -2,15 +2,13 @@
 using System.Reflection;
 using Verse;
 
-namespace betterJumpPack
+namespace betterJumpPack;
+
+public class BetterJumpPackMod : Mod
 {
-    public class BetterJumpPackMod : Mod
-    {
-        
-        public BetterJumpPackMod(ModContentPack content) : base(content)
-        {
-            new Harmony("com.yayo.BetterJumpPack").PatchAll(Assembly.GetExecutingAssembly());
-        }
-        
+    public BetterJumpPackMod(ModContentPack content) : base(content)
+    { 
+        new Harmony("com.yayo.BetterJumpPack").PatchAll(Assembly.GetExecutingAssembly()); 
     }
 }
+

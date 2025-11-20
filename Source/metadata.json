@@ -5,11 +5,12 @@
   "PreviewVersion": "1.6",
   "SocialImageSet": true,
   "Patches": true,
-  "Defs": false,
+  "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 13023,
-  "LinesOfXML": 523,
+  "LinesOfCode": 13224,
+  "LinesOfXML": 1111,
   "CodeBaseSize": 65,
-  "LastXmlCleaning": "2025-09-22T21:33:19.0303924+02:00",
-  "SearchTags": " mountain jumping"
+  "LastXmlCleaning": "2025-11-20T22:11:40.3314842+01:00",
+  "SearchTags": " mountain jumping",
+  "RimWorldBaseId": 22726
 }

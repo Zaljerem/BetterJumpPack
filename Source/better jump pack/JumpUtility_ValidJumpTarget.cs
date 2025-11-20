@@ -9,17 +9,17 @@ public static class JumpUtility_ValidJumpTarget
 {
     private static void Postfix(ref bool __result, Map map, IntVec3 cell)
     {
-        if (__result)
+        if(__result)
         {
             return;
         }
 
-        if (!cell.IsValid || !cell.InBounds(map))
+        if(!cell.IsValid || !cell.InBounds(map))
         {
             return;
         }
 
-        if (cell.Impassable(map) || !cell.Walkable(map))
+        if(cell.Impassable(map) || !cell.Walkable(map))
         {
             return;
         }

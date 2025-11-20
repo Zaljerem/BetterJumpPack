@@ -5,5 +5,5 @@
   <Configurations>
     <BuildType Name="Release" />
   </Configurations>
-  <Project Path="better jump pack/better jump pack.csproj" />
+  <Project Path="better jump pack/BetterJumpPack.csproj" />
 </Solution>

@@ -11,11 +11,13 @@ public static class Verb_CastAbilityJump_OrderForceTarget
     private static bool Prefix(Verb_CastAbilityJump __instance, LocalTargetInfo target)
     {
         var map = __instance.CasterPawn.Map;
-        var cell = BetterJumpPackUtility.BestOrderedGotoDestNear(target.Cell, __instance.CasterPawn,
+        var cell = BetterJumpPackUtility.BestOrderedGotoDestNear(
+            target.Cell,
+            __instance.CasterPawn,
             acceptableDestination);
         var job = JobMaker.MakeJob(JobDefOf.CastJump, cell);
         job.verbToUse = __instance;
-        if (!__instance.CasterPawn.jobs.TryTakeOrderedJob(job))
+        if(!__instance.CasterPawn.jobs.TryTakeOrderedJob(job))
         {
             Log.Message("[betterJumpPack]: Failed to do job.");
             return false;
@@ -25,9 +27,6 @@ public static class Verb_CastAbilityJump_OrderForceTarget
 
         return false;
 
-        bool acceptableDestination(IntVec3 c)
-        {
-            return __instance.CanHitTargetFrom(__instance.caster.Position, c);
-        }
+        bool acceptableDestination(IntVec3 c) { return __instance.CanHitTargetFrom(__instance.caster.Position, c); }
     }
 }

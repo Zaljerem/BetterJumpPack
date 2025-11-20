@@ -1,21 +1,21 @@
 # [Better Jump Pack (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2565740103)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of YAYOs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2242175972
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
-![Image](https://imgur.com/I3WPUFI.gif)
+![Image](https://img.litet.net/I3WPUFI.gif)
 
 - Allows jump packs to cross walls, break roof and fall.
 
 
 
-![Image](https://imgur.com/33k4WYy.gif)
+![Image](https://img.litet.net/33k4WYy.gif)
 
 - Jumping under the roof destroys the roof and takes damage.
 
@@ -32,7 +32,7 @@ I'd love to see variations come out with various ideas.
 I'm a game designer, and I haven't implemented many ideas yet due to lack of time.
 If you are proficient in C# and are interested, please contact me on the rimworld discord.**
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 

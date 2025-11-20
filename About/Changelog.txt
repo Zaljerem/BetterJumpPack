@@ -1,5 +1,8 @@
 # Changelog for BetterJumpPack
 
+1.6.2 - Removed the need for HugsLib, thanks to Zaljerem!
+
+
 1.6.1 - Do not jump through roofs when in space
 
 
