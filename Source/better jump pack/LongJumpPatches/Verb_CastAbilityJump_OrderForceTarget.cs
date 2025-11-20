@@ -11,7 +11,7 @@ public static class Verb_CastAbilityJump_OrderForceTarget
     private static bool Prefix(Verb_CastAbilityJump __instance, LocalTargetInfo target)
     {
         var map = __instance.CasterPawn.Map;
-        var cell = betterJumpPack.BestOrderedGotoDestNear_NewTemp(target.Cell, __instance.CasterPawn,
+        var cell = BetterJumpPackUtility.BestOrderedGotoDestNear(target.Cell, __instance.CasterPawn,
             acceptableDestination);
         var job = JobMaker.MakeJob(JobDefOf.CastJump, cell);
         job.verbToUse = __instance;
